@@ -1,0 +1,86 @@
+/* Theresa's css styles */
+.Theresa_Header {
+    background-color: aquamarine;
+    text-align: center;
+   padding: 40px;
+   color: #000000;
+   border-bottom: 5px solid #000000;
+  }
+
+ /* body{
+    background-color: paleturquoise
+  }
+  */
+  .Resume_content{
+    width: 100%;
+    border-top: 5px solid #000000;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: flex-start;}
+
+    /*.Image{
+        width: 20px;
+        height: 10px;
+    }*/
+
+    .Resume_content h2{
+        font-weight: 700;
+        font-size: 36px;
+        margin-bottom: 20px;}
+
+    .resume_left{
+      padding: 60px 40px;}
+
+      .display_column{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .resume_right{
+        background: #ffffff;
+        margin-top: 20px;
+        padding: 30px 40px;
+      }
+      
+      /* style the labels on the left side */
+      .nonso_contact{
+        font-size: 20px;
+      }
+      .padding_left_30, .nonso_contact{
+        padding-left: 30px;
+      }
+      .nonso_contact .nonso_label{
+        font-weight: 700;
+      }
+      
+      /* style work history section */
+      .job_tittle, .company{
+        display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      }
+      .job_tittle span:first-child, .company span:first-child{
+      font-weight: 700;
+      font-size: 28px;
+      
+      }
+      .company span:first-child{
+        font-size: 20px;
+      }
+      .text_right{
+        text-align: right;
+      }
+      
+      .job_container{
+        padding-left: 5px;
+      }
+      .job_info{
+        margin-bottom: 30px;
+      }
+      .list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
